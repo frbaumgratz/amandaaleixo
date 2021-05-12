@@ -1,0 +1,104 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.block{
+    float:left;
+    width:50%;
+}
+
+#navbar{
+    background:rgb(63, 141, 63);
+    color:#fff;
+    overflow:hidden;
+    margin-left:30px;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    padding-right:20px;
+}
+
+#foto1{
+    width:100%;
+}
+
+#videos{
+    text-align:center;
+    font-size:20px;
+}
+
+#videos h3{
+    font-size:50px;
+}
+
+#wp{
+    width:50%;
+}
+
+.icone{
+    width:20px;
+}
+
+#aboutme h3{
+    font-size:40px;
+}
+
+#aboutme{
+    float:left;
+    width:30%;
+    padding:0 30px;
+    box-sizing:border-box;
+    padding-top:2px;
+    text-align:justify;
+}
+
+#aboutmepic{
+    float:right;
+    width:70%;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+#mysongspic{
+    width:100%;
+}
+
+#mysongs h3{
+    text-align:center;
+    font-size:40px;
+}
+
+#mysongs{
+    text-align:center;
+}
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
