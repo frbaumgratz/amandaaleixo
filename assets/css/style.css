@@ -29,11 +29,11 @@ ul{
 
 /* Header **/
 header{
-    background:#35424a;
+    background:#303952;
     color:#ffffff;
     padding-top:30px;
     min-height:70px; 
-    border-bottom:#e8491d 3px solid;
+    border-bottom:#f5cd79 3px solid;
 }
 
 header #logo{
@@ -64,7 +64,7 @@ header nav{
 }
 
 header .current a{
-    color:#e8491d;
+    color:#f5cd79;
     font-weight:bold;
 }
 
@@ -90,20 +90,23 @@ header a:hover{
     margin-bottom:10px;
 }
 
-#showcase h2{
-    font-size:23px;
+#showcase p{
+    font-size:21px;
+    font-weight:bold;
+    margin-top:15px;
 }
 
-#showcase p{
-    font-size:20px;
+#showcase code{
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, .75);
 }
 
 /* Contato */
 
 #contato{
     padding:10px;
-    background:#35424a;
-    border-top:#e8491d 2px solid;
+    background:#303952;
+    border-top:#f5cd79 2px solid;
+    color:#ffffff;
 }
 #contato h1{
     float:left;
@@ -115,7 +118,7 @@ header a:hover{
 }
 
 #contato form .wpp{
-    background-color:green;
+    background-color:#303952;
     color:#ffffff;
     display:inline-block;
     padding:10px 17px 10px 17px;
@@ -124,7 +127,7 @@ header a:hover{
 }
 
 #contato form .wpp:hover{
-    background-color:#da0f0f;
+    background-color:#f5cd79;
     font-weight:bold;
 }
 
@@ -207,7 +210,7 @@ article#main-col{
 footer{
     padding:10px;
     margin-top:20px;
-    color:#ffffff;
-    background-color:#e8491d;
+    color:#303952;
+    background-color:#f5cd79;
     text-align:center;
 }
