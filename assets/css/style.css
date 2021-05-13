@@ -1,104 +1,213 @@
 body{
-    background-color:#f4f4f4;
-    color:#555;
     font-family:Arial, Helvetica, sans-serif;
-    font: size 16px;
-    line-height:1.6em;
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
     margin:0;
+    background-color:#f4f4f4;
 }
 
+/* Global */
 .container{
     width:80%;
     margin:auto;
-    overflow:hidden;
+    overflow:hidden; 
 }
 
-.block{
-    float:left;
-    width:50%;
-}
-
-#navbar{
-    background:rgb(63, 141, 63);
-    color:#fff;
-    overflow:hidden;
-    margin-left:30px;
-}
-
-#navbar ul{
+ul{
+    margin:0;
     padding:0;
-    list-style:none;
 }
 
-#navbar li{
-    display:inline;
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
-#navbar a{
-    color:#fff;
+/* Header **/
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px; 
+    border-bottom:#e8491d 3px solid;
+}
+
+header #logo{
+}
+
+header a{
+    color:#ffffff;
     text-decoration:none;
-    font-size:18px;
-    padding-right:20px;
+    font-size:16px;
 }
 
-#foto1{
-    width:100%;
+header li{
+    display:inline;
+    padding: 0 20px 0 20px;
 }
 
-#videos{
+header #branding{
+    float:left;
+}
+
+header #branding img{
+    margin-top:10px;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+/* Showcase */
+
+#showcase{
+    min-height:400px;
+    background-image:url(../imgs/repertorio.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
     text-align:center;
+    color:#ffffff;
+}
+
+#showcase h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase h2{
+    font-size:23px;
+}
+
+#showcase p{
     font-size:20px;
 }
 
-#videos h3{
-    font-size:50px;
-}
+/* Contato */
 
-#wp{
-    width:50%;
-}
-
-.icone{
-    width:20px;
-}
-
-#aboutme h3{
-    font-size:40px;
-}
-
-#aboutme{
-    float:left;
-    width:30%;
-    padding:0 30px;
-    box-sizing:border-box;
-    padding-top:2px;
-    text-align:justify;
-}
-
-#aboutmepic{
-    float:right;
-    width:70%;
+#contato{
     padding:10px;
-    box-sizing:border-box;
+    background:#35424a;
+    border-top:#e8491d 2px solid;
+}
+#contato h1{
+    float:left;
 }
 
-#mysongspic{
-    width:100%;
+#contato form{
+    float:right;
+    margin-top:20px;
 }
 
-#mysongs h3{
+#contato form .wpp{
+    background-color:green;
+    color:#ffffff;
+    display:inline-block;
+    padding:10px 17px 10px 17px;
+    text-decoration:none;
+    transition:all 1s;
+}
+
+#contato form .wpp:hover{
+    background-color:#da0f0f;
+    font-weight:bold;
+}
+
+#contato form .wp{
+    margin-right:5px;
+    vertical-align:middle;
+
+}
+
+/* Boxes */
+
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
     text-align:center;
-    font-size:40px;
+    width:30%;
+    padding:10px;
 }
 
-#mysongs{
-    text-align:center;
+#boxes .box img{
+    width:90px;
 }
 
-#main-footer{
-    background:#333;
-    color:#fff;
+/* Videoboxes */
+
+#videoboxes{
+    margin-top:20px;
+}
+
+#videoboxes .box{
+    float:left;
     text-align:center;
-    padding:20px;
-    margin-top:40px;
+    width:45%;
+    padding:10px;
+}
+
+#videoboxes .box video{
+    width:400px;
+}
+
+#videoboxes .box h3{
+}
+
+/* Sidebar */
+
+aside#sidebar{
+    float:right;
+    width:40%;
+    margin-top:50px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+}
+
+/* Main-col */
+
+article#main-col{
+    float:left;
+    width:55%;
+}
+
+.aboutpic{
+    height:500px;
+    position:relative;
+    overflow:hidden;
+}
+
+.aboutpic img{
+    max-height:100%;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%); 
+}
+
+footer{
+    padding:10px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align:center;
 }
