@@ -214,3 +214,27 @@ footer{
     background-color:#f5cd79;
     text-align:center;
 }
+
+/* Media Queries */
+
+@media(max-width:768px){
+    header nav,
+    header nav li,
+    #contato h1,
+    #contato form,
+    #boxes .box,
+    #videoboxes .box,
+    article#main-col,
+    aside#sidebar{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    header{
+        padding-bottom:0px;
+    }
+
+    #showcase h1{
+        margin-top:40px;
+    }
