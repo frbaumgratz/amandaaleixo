@@ -224,6 +224,7 @@ footer{
     #contato form,
     #boxes .box,
     #videoboxes .box,
+    #videoboxex .box video,
     article#main-col,
     aside#sidebar{
         float:none;
