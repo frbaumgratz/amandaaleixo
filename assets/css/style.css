@@ -260,13 +260,18 @@ footer{
     #contato form,
     #boxes .box,
     #videoboxes .box,
-    #videoboxex .box video,
+    #videoboxes .box video,
     article#main-col,
     aside#sidebar{
         float:none;
         text-align:center;
         width:100%;
     }
+
+    /* pq isto não muda nada?
+    #videoboxex .box p{
+        width:70%;
+    }*/
 
     header{
         padding-bottom:0px;
