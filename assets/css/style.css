@@ -207,9 +207,6 @@ header a:hover{
     width:400px;
 }
 
-#videoboxes .box h3{
-}
-
 /* Sidebar */
 
 aside#sidebar{
@@ -268,11 +265,6 @@ footer{
         width:100%;
     }
 
-    /* pq isto não muda nada?
-    #videoboxex .box p{
-        width:70%;
-    }*/
-
     header{
         padding-bottom:0px;
     }
@@ -283,4 +275,9 @@ footer{
 
     #showcase h1{
         margin-top:40px;
+    }
+
+    #videoboxes .box{
+        margin:auto;
+        padding:0;
     }
